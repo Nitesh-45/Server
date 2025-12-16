@@ -252,7 +252,7 @@ server.listen(PORT, () => {
   ╠════════════════════════════════════════╣
   ║  Server running on port ${PORT}            ║
   ║  Accepting connections from:           ║
-  ║  ${CLIENT_URL}                  ║
+  ║  ${ALLOWED_ORIGINS.join(', ')}
   ╚════════════════════════════════════════╝
   `);
 });
